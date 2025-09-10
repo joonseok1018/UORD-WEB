@@ -1,0 +1,123 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #89f7fe, #66a6ff);
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 40px;
+}
+
+.game-container {
+    background-color: white;
+    padding: 30px 40px;
+    border-radius: 20px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 320px;
+    margin-bottom: 20px;
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+}
+
+p {
+    margin: 8px 0;
+    font-size: 16px;
+    color: #555;
+}
+
+#result {
+    margin-top: 20px;
+    font-weight: bold;
+    color: #444;
+    font-size: 18px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #66a6ff;
+    color: white;
+    font-size: 16px;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #558de8;
+}
+
+button:disabled {
+    background-color: #cccccc !important;
+    cursor: not-allowed;
+}
+
+#playAgainBtn {
+    margin-top: 20px;
+    width: 100%;
+    background-color: #ffa600;
+}
+
+#playAgainBtn:hover {
+    background-color: #e59400;
+}
+
+.balance-tracker {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background-color: rgba(255, 255, 255, 0.85);
+    padding: 10px 20px;
+    border-radius: 15px;
+    font-size: 16px;
+    color: #333;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+}
+
+.betting {
+    margin-bottom: 20px;
+}
+
+.betting input {
+    padding: 5px;
+    width: 50px;
+    text-align: center;
+}
+
+.info-container {
+    background-color: white;
+    padding: 20px 30px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    width: 320px;
+    text-align: left;
+}
+
+.info-container h2 {
+    color: #333;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.info-container p, .info-container li {
+    font-size: 14px;
+    color: #444;
+    line-height: 1.6;
+}
+
+.info-container ul {
+    padding-left: 20px;
+}
